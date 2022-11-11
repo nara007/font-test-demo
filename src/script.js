@@ -1,1 +1,2 @@
-console.log("hello world script2");
+const myArgs = process.argv.slice(2);
+console.log('myArgs: ', myArgs);
