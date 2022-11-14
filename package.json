@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "go": "node ./src/script.js `npm version patch` "
+    "go": "node ./src/script.js `npm version $npm_config_param` "
   },
   "eslintConfig": {
     "extends": [
