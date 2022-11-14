@@ -2,7 +2,7 @@ const fs = require('fs');
 const myArgs = process.argv.slice(2);
 console.log('myArgs: ', myArgs);
 
-const file = require(__dirname + '/../env_test');
+let file = JSON.parse(fs.readFileSync(__dirname + '/../env_test', 'utf8'));
 console.log(file);
 file.development.REACT_APP_VERSION = myArgs;
 
