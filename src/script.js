@@ -1,5 +1,5 @@
 const fs = require('fs');
-const myArgs = process.argv.slice(2);
+const myArgs = process.argv.slice(2)[0].slice(1);
 console.log('myArgs: ', myArgs);
 
 let file = JSON.parse(fs.readFileSync(__dirname + '/../env_test', 'utf8'));
