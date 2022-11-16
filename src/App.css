@@ -1,15 +1,13 @@
 
 body {
-  font-family: "TT Norms";
+  font-family: "iomoto";
 }
 
 @font-face {
-  font-family: "TT Norms";
+  font-family: "iomoto";
   src: url(https://globalstaticassets.blob.core.windows.net/public/TT-Norms-Medium.otf) format("opentype");
 }
 
 .widget-wrapper {
-  font-family: "TT Norms" !important;
+  font-family: "iomoto" !important;
 }
-
-
