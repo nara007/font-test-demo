@@ -1,13 +1,15 @@
 
-@font-face {
-  font-family: TT Norms Pro;
-  src: url(assets/TT_Norms_Pro_Medium.woff) format('woff');
+body {
+  font-family: "TT Norms";
 }
 
-body {
-  font-family: TT Norms Pro;
+@font-face {
+  font-family: "TT Norms";
+  src: url(https://globalstaticassets.blob.core.windows.net/public/TT-Norms-Medium.otf) format("opentype");
 }
 
 .widget-wrapper {
-  font-family: 'TT Norms Pro' !important;
+  font-family: "TT Norms" !important;
 }
+
+

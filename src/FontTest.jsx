@@ -2,7 +2,7 @@ import { styled } from "@mui/material";
 import CumulioWrapper from "./Dashboard";
 
 const Container = styled("div")`
-    font-family: TT Norms Pro;
+    font-family: TT Norms;
     font-size: 32px;
 `;
 
@@ -13,8 +13,8 @@ const FontTest = () => {
             <Container>hello world</Container>
             <CumulioWrapper
                 language={"en"}
-                authKey={"d46d281d-e295-4e18-a248-19b11e0bbf08"}
-                authToken={"XxAruBZhONGek8FVTlKjPjyewXatVPieF59iHxbU4RUwB3VZthrXfyf8ozBOW0MfoY9i80CGBTpk3iI8PWmtSIHZl2paQgsfhLz7GQdslImzBN9AzJsoPa2cWQykzeNaabAKsnhkupMH0ppPaL07bh"}
+                authKey={"93b165d3-0656-48de-95ab-9ba27e624cad"}
+                authToken={"KQ6k6Ce6ax6fVWdZYxheQAlh312H99JEMU65G6kQX3mV0cU4Zp0o2DSKD3a7C6JDSItzXdtTEVgVIHMs1f0bUlerlep9MWx3RFLOQwOQW36HlhgJfOCQa2Ad2eUrdS3CjBAkrGSkeJPmGp3rp8A1aB"}
             />
         </>
     )
